@@ -59,9 +59,9 @@
 		16BA95410A7EB2EB001E4983 /* MotionSensorPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionSensorPlugIn.m; sourceTree = "<group>"; };
 		8B12325A0C236A6700B08DE5 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
 		8B62A9530C225C3000CE1F58 /* unimotion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = unimotion.h; path = unimotion/unimotion/unimotion.h; sourceTree = "<group>"; };
-		8B62A9980C2261B600CE1F58 /* libUniMotion.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libUniMotion.dylib; path = unimotion/bin/libUniMotion.dylib; sourceTree = "<group>"; };
+		8B62A9980C2261B600CE1F58 /* libUniMotion.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libUniMotion.dylib; path = unimotion/Frameworks/libUniMotion.dylib; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* Motion Sensor.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion Sensor.plugin"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
