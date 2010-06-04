@@ -21,9 +21,11 @@
 #import <IOKit/IOKitLib.h>
 
 @interface com_google_Ambient_Light_SensorPlugIn : QCPlugIn {
-    double outputLeft;
-    double outputRight;
-    io_connect_t dataPort;
+  double outputLeft;
+  double outputRight;
+
+  io_connect_t dataPort;
+  double calibration;
 }
 
 @property double outputRight;
